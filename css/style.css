@@ -1,10 +1,4 @@
-html {
-  box-sizing: border-box;
-}
-*. .::before,
-.::after {
-  box-sizing: inherit;
-}
+
 :root {
   --accent-color: #2196f3;
   --text-color: #757575;
@@ -15,20 +9,6 @@ html {
   --background-color-mainteam: #f5f4fa;
   --button-backgroud-color: #188ce8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--headertext-color);
-  background-color: var(--background-color);
-}
-.list {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-.link {
-  text-decoration: none;
 }
 .container {
   width: 1200px;
@@ -44,187 +24,12 @@ body {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-  margin: 0px;
-}
-img {
-  display: block;
-  max-width: 100%;
-}
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
+
+
+
+
 /*------HEADER----*/
-.header-border {
-  border-bottom: 1px solid #ececec;
-}
-.container-header {
-  display: flex;
-  align-items: center;
-  height: 80px;
 
-  /* display: flex; 
-  align-items: center;*/
-}
-.header-logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-left: 0px;
-  margin-right: 93px;
-  display: block;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-.header-list {
-  display: flex;
-  align-items: center;
-}
-/*.header-item {
-  margin-right: 50px;
-}
-.header-list .header-item:last-child {
-  margin-right: 0px;*
-}*/
-.header-list .header-item:not(:last-child) {
-  margin-right: 50px;
-}
-.header-item {
-}
-.header-link {
-  position: relative;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--headertext-color);
-  transition: color 250ms var(--timing-function);
-}
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
-}
-.header-link.link.current {
-  color: var(--accent-color);
-}
-.current::after {
-  position: absolute;
-  left: 0px;
-  content: " ";
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--accent-color);
-  bottom: -1px;
-  transition: 250ms var(--timing-function);
-}
-/*.header-link:hover::after {
-  opacity: 1;
-}*/
-
-/*------contact list-------*/
-.header-address {
-  margin-left: auto;
-}
-.contacts-list {
-  display: flex;
-  margin-left: auto;
-  align-items: baseline;
-}
-.contacts-list .contacts-item + .contacts-item {
-  margin-left: 50px;
-}
-.contacts-item {
-}
-/*.header-mail::before {
-  display: inline-block;
-  content: " ";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-color: red;
-}*/
-.header-mail {
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  text-align: center;
-  transition: color 250ms var(--timing-function),
-    fill 250ms var(--timing-function);
-}
-.header-mail {
-  fill: var(--text-color);
-}
-.header-mail:hover,
-.header-mail:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-}
-.header-mail-icon {
-  display: flex;
-  margin-right: 10px;
-}
-/*.header-tel::before {
-  display: inline-block;
-  content: " ";
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-color: red;
-}*/
-.header-tel-icon {
-  margin-right: 10px;
-  display: flex;
-}
-.header-tel {
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  fill: var(--text-color);
-  transition: color 250ms var(--timing-function),
-    fill 250ms var(--timing-function);
-
-  align-content: center;
-  align-items: flex-end;
-}
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-}
 /*------Main section----*/
 .overlay {
   max-width: 1600px;
@@ -280,6 +85,7 @@ ul {
 .hero-btn:focus {
   background-color: var(--button-backgroud-color);
 }
+
 /*------Section peculiarities-----*/
 .peculiarities-section {
 }
