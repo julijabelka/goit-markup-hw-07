@@ -87,8 +87,7 @@
 }
 
 /*------Section peculiarities-----*/
-.peculiarities-section {
-}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -231,8 +230,8 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-photo {
-}
+
+
 .subscribe-photo {
   padding: 30px 10px;
 }
@@ -320,8 +319,8 @@
   transition: fill 250ms var(--timing-function),
     border-color 250ms var(--timing-function);
 }
-.clients-icon {
-}
+
+
 .clients-link:hover,
 .clients-link:focus {
   fill: var(--accent-color);
@@ -380,8 +379,7 @@
   background-color: var(--accent-color);
   color: var(--background-color);
 }
-.portfolio {
-}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
